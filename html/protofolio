@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sharanya | Web Developer</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: #f5f7fa;
+      color: #333;
+    }
+
+    header {
+      background: #0f172a;
+      color: white;
+      padding: 20px 50px;
+      display: flex;
+      justify-content: space-between;
+    }
+
+    nav a {
+      color: white;
+      margin-left: 20px;
+      text-decoration: none;
+    }
+
+    .hero {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 60px;
+    }
+
+    .hero-text {
+      max-width: 50%;
+    }
+
+    .hero h1 {
+      font-size: 40px;
+    }
+
+    .btn {
+      padding: 12px 20px;
+      background: #22c55e;
+      color: white;
+      border: none;
+      border-radius: 6px;
+      cursor: pointer;
+      margin-top: 15px;
+    }
+
+    .projects {
+      padding: 50px;
+      text-align: center;
+    }
+
+    .project-grid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 20px;
+      margin-top: 30px;
+    }
+
+    .card {
+      background: white;
+      padding: 20px;
+      border-radius: 10px;
+      box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+    }
+
+    footer {
+      text-align: center;
+      padding: 20px;
+      background: #0f172a;
+      color: white;
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <h2>Sharanya</h2>
+  <nav>
+    <a href="#">Home</a>
+    <a href="#">Projects</a>
+    <a href="#">Contact</a>
+  </nav>
+</header>
+
+<section class="hero">
+  <div class="hero-text">
+    <h1>Professional Web Developer</h1>
+    <p>I create modern, responsive websites that help businesses grow online.</p>
+    <button class="btn">Hire Me</button>
+  </div>
+  <img src="https://images.unsplash.com/photo-1522202176988-66273c2fd55f" width="400">
+</section>
+
+<section class="projects">
+  <h2>My Projects</h2>
+  <div class="project-grid">
+
+    <div class="card">
+      <h3>Business Website</h3>
+      <p>Modern responsive business website with clean UI.</p>
+    </div>
+
+    <div class="card">
+      <h3>Portfolio Website</h3>
+      <p>Personal portfolio with smooth layout and design.</p>
+    </div>
+
+    <div class="card">
+      <h3>E-commerce UI</h3>
+      <p>Shopping website design with product pages.</p>
+    </div>
+
+  </div>
+</section>
+
+<footer>
+  <p>© 2026 Sharanya | Web Developer</p>
+</footer>
+
+</body>
+</html>
